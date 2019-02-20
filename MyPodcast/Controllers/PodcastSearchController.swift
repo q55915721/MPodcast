@@ -21,7 +21,7 @@ class PodcastSearchController: UITableViewController,UISearchBarDelegate {
         
         setupSearchBar()
         setupTableView()
-        searchBar(self.searchBar.searchBar, textDidChange: "Ted")
+        searchBar(self.searchBar.searchBar, textDidChange: "Npr")
         tableView.keyboardDismissMode = .onDrag
     }
     
